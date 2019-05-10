@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Json</string>
+
+        <string name="name">name</string>
+        <string name="position">position</string>
+        <string name="birth_date">Birth date</string>
+        <string name="no">no</string>
+
+
+</resources>
