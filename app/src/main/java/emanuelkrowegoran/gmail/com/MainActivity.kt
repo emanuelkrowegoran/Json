@@ -39,9 +39,6 @@ class MainActivity : AppCompatActivity() {
         listView.onItemClickListener = AdapterView.OnItemClickListener { adapterView, view, position, l ->
             val playerItem = playerItemList!![position]
 
-            val i = Intent(applicationContext, DetailPlayerActivity::class.java)
-            i.putExtra(DetailPlayerActivity.EXTRA_PLAYER, playerItem)
-            startActivity(i)
         }
         loadPlayer()
     }
@@ -83,6 +80,6 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
 
-        private val JSON_URL = "https://emanuelkrowegoran.github.io/FootBallPlayer/AllPlayer.json"
+        private val JSON_URL = "https://emanuelkrowegoran.github.io/FootBallPlayer/AllPlayer.json";
     }
 }
